@@ -6042,6 +6042,106 @@
             "IPTC:OriginalTransmissionReference": {
                 "AND": false,
                 "OR": false
+            },
+            "EXE:AssemblyVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:PrivateBuild": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ProgramID": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:SpecialBuild": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:Languages": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:Tag040904B0": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:Flags": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:FileAttributes": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:TargetFileSize": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:IconIndex": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:RunWindow": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:HotKey": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:AccessDate": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:TargetFileDOSName": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:DriveType": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:VolumeLabel": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:LocalBasePath": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:Description": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:RelativePath": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:CommandLineArguments": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:IconFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:MachineID": {
+                "AND": false,
+                "OR": false
+            },
+            "LNK:WorkingDirectory": {
+                "AND": false,
+                "OR": false
             }
         }
     },
