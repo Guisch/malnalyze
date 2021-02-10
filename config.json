@@ -1,0 +1,6055 @@
+{
+    "virustotal": {
+        "url_base_search": "https://www.virustotal.com/gui/search/",
+        "url_base_intel": "https://www.virustotal.com/intelligence/search/?query=",
+        "intel_search": {
+            "SourceFile": {
+                "AND": false,
+                "OR": false
+            },
+            "ExifTool:ExifToolVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileName": {
+                "AND": true,
+                "OR": false
+            },
+            "File:Directory": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileSize": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileAccessDate": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileInodeChangeDate": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FilePermissions": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FileType": {
+                "AND": true,
+                "OR": false
+            },
+            "File:FileTypeExtension": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MIMEType": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipRequiredVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipBitFlag": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipCompression": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipCRC": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipCompressedSize": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipUncompressedSize": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ZipFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Title": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Subject": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Creator": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Description": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Keywords": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:LastModifiedBy": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:RevisionNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:LastPrinted": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Template": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:TotalEditTime": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Pages": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Words": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Characters": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Application": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:DocSecurity": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Lines": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Paragraphs": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ScaleCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:HeadingPairs": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:TitlesOfParts": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Company": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:LinksUpToDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CharactersWithSpaces": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:SharedDoc": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:HyperlinksChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:AppVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "ExifTool:Error": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:ImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:ImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:BitDepth": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:ColorType": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Compression": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Filter": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Interlace": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:SRGBRendering": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Gamma": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:PixelsPerUnitX": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:PixelsPerUnitY": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:PixelUnits": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:ImageSize": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:Megapixels": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PDFVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Linearized": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PageCount": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Language": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:TaggedPDF": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Title": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Author": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Subject": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Creator": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Producer": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:XMPToolkit": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Producer": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:CreatorTool": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DocumentID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:InstanceID": {
+                "AND": false,
+                "OR": false
+            },
+            "ExifTool:Warning": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:viewport": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Description": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Author": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Generator": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Title": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Title": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Subject": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Author": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Keywords": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Template": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:LastModifiedBy": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:RevisionNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Software": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:TotalEditTime": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:LastPrinted": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Pages": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Words": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Characters": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Security": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CodePage": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Company": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Lines": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Paragraphs": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CharCountWithSpaces": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:AppVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:ScaleCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:LinksUpToDate": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:SharedDoc": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:HyperlinksChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:TitleOfParts": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:HeadingPairs": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CompObjUserTypeLen": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CompObjUserType": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Comments": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_PID_GUID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Generator": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Initial-creator": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Creation-date": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Date": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:TemplateHref": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:TemplateType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Editing-cycles": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Editing-duration": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticPage-count": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticParagraph-count": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticWord-count": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticCharacter-count": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticRow-count": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Document-statisticNon-whitespace-character-count": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:mxGraphModel": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PageMode": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Trapped": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PTEX_Fullbanner": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:CurrentUser": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:ThumbnailClip": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:PresentationTarget": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Bytes": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Slides": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Notes": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:HiddenSlides": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:MMClips": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Hyperlinks": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MetadataDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Format": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:SourceModified": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PageLayout": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SourceModified": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentListDefault": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentListId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentListName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentListComment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentIgnoredPath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFilePinned": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileCurrent-in-tab": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderSelected": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderEditor-type-id": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateRelative-caret-position": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretSelection-start-line": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretSelection-end-line": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateFoldingElementSignature": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateFoldingElementExpanded": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretColumn": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretSelection-start-column": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretSelection-end-column": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFindStringsFind": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionListOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentExtendedState": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSettingsEditedManually": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentNavigatorProportions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentNavigatorVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentNavigatorFoldersAlwaysOnTopValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPanesPaneId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPanesPaneSubPaneExpandPathItemName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPanesPaneSubPaneExpandPathItemType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPanesPaneSubPaneSelect": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPropertyName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPropertyValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionListRuleStateOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionListRuleStateOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSelected": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationFactoryName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationTemporary": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationNameIsGenerated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationModuleName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationExtensionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationExtensionPatternOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationExtensionPatternOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationMethodV": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationMethodOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationMethodOptionEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentRecent_temporaryListItemItemvalue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfiguration": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskActive": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskSummary": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskChangelistId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskChangelistName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskChangelistComment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskUpdated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskWorkItemFrom": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTaskWorkItemDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentServers": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentHistory-entryFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentHistory-entryConfigurationName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentHistory-entryConfigurationConfigurationId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTodo-panelId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTodo-panelIs-autoscroll-to-sourceValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentTodo-panelAre-packages-shownValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFrameX": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFrameY": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFrameWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFrameHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFrameExtended-state": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEditorActive": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoSide_tool": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoContent_ui": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoOrder": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoVisible": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoWeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoAnchor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoShow_stripe_button": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoInternal_type": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoOrder": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoSide_tool": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoContent_ui": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoVisible": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoWeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoAnchor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoShow_stripe_button": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoActive": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoInternal_type": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayout-to-restoreWindow_infoType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointProperties": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderSelected": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderEditor-type-id": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateRelative-caret-position": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretColumn": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretSelection-start-line": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretSelection-start-column": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretSelection-end-line": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretSelection-end-column": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateFoldingElementSignature": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateFoldingElementExpanded": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentStatesStateKey": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentStatesStateSettingsLast-edited": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentStatesStateSettingsSplitter-proportionsOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentStatesStateSettingsSplitter-proportionsOptionListOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CPUCount": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CPUType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CPUSubtype": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentModulesModuleFileurl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentModulesModuleFilepath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentInherit-compiler-output": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentExclude-output": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryForTests": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafSideTabsSizeLimitKey": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoActive": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectXmlns": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectSchemaLocation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectModelVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectGroupId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectArtifactId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginGroupId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginArtifactId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginConfigurationSource": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginConfigurationTarget": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginExecutionsExecutionGoalsGoal": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectDependenciesDependencyGroupId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectDependenciesDependencyArtifactId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectDependenciesDependencyVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectDependenciesDependencyScope": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileSourceOutputDirName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileSourceTestOutputDirName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileOutputRelativeToContentRootValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentAnnotationProcessingProfileModuleName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBytecodeTargetLevelModuleName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBytecodeTargetLevelModuleTarget": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLanguageLevel": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentProject-jdk-name": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentProject-jdk-type": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOutputUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleOrgjetbrainsideamavenprojectMavenProjectsManagerisMavenModule": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentLanguageLevel": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOutputUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOutput-testUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentSourceFolderUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentSourceFolderIsTestSource": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentExcludeFolderUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryScope": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryLevel": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentMappingDirectory": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentMappingVcs": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:MPEGAudioVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:AudioLayer": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:AudioBitrate": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:SampleRate": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:ChannelMode": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:MSStereo": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:IntensityStereo": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:CopyrightFlag": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:OriginalMedia": {
+                "AND": false,
+                "OR": false
+            },
+            "MPEG:Emphasis": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:Duration": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFileUrl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentFileCharset": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLeafFileEntryProviderStateCaretLean-forward": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEntryProviderStateCaretLean-forward": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginConfiguration": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectBuildPluginsPluginExecutionsExecutionPhase": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointPropertiesField": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentBreakpoint-managerBreakpointsLine-breakpointPropertiesClass": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentPanes": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentStatesStateSettingsArtifact-editor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionMavenImportingSettingsOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionMavenImportingSettingsOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:AppleKeywords": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:RenditionClass": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DerivedFromInstanceID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DerivedFromDocumentID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestLinkForm": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestPlacedXResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestPlacedYResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestPlacedResolutionUnit": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestReferenceInstanceID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestReferenceDocumentID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ThumbnailFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ThumbnailWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ThumbnailHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ThumbnailImage": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Trapped": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:HasXFA": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Keywords": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PTEXFullbanner": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PreviewImage": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PresentationFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Slides": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Notes": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:HiddenSlides": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MMClips": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:About": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ExifByteOrder": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "File:EncodingProcess": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BitsPerSample": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ColorComponents": {
+                "AND": false,
+                "OR": false
+            },
+            "File:YCbCrSubSampling": {
+                "AND": false,
+                "OR": false
+            },
+            "JFIF:JFIFVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "JFIF:ResolutionUnit": {
+                "AND": false,
+                "OR": false
+            },
+            "JFIF:XResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "JFIF:YResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Make": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Model": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Orientation": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:XResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:YResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ResolutionUnit": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Software": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:YCbCrPositioning": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExposureTime": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExposureProgram": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ISO": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExifVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:DateTimeOriginal": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ComponentsConfiguration": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ShutterSpeedValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ApertureValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:BrightnessValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExposureCompensation": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:MeteringMode": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Flash": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FocalLength": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SubjectArea": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SubSecTimeOriginal": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SubSecTimeDigitized": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FlashpixVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ColorSpace": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExifImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExifImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SensingMethod": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SceneType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ExposureMode": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:WhiteBalance": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FocalLengthIn35mmFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SceneCaptureType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSLatitudeRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSLatitude": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSLongitudeRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSLongitude": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSAltitudeRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSAltitude": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSTimeStamp": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSSpeedRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSSpeed": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSImgDirectionRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSImgDirection": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSDestBearingRef": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSDestBearing": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GPSDateStamp": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Compression": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ThumbnailOffset": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ThumbnailLength": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:ThumbnailImage": {
+                "AND": false,
+                "OR": false
+            },
+            "MakerNotes:RunTimeFlags": {
+                "AND": false,
+                "OR": false
+            },
+            "MakerNotes:RunTimeValue": {
+                "AND": false,
+                "OR": false
+            },
+            "MakerNotes:RunTimeEpoch": {
+                "AND": false,
+                "OR": false
+            },
+            "MakerNotes:RunTimeScale": {
+                "AND": false,
+                "OR": false
+            },
+            "MakerNotes:AccelerationVector": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:Aperture": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:GPSAltitude": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:GPSDateTime": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:GPSLatitude": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:GPSLongitude": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:GPSPosition": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:RunTimeSincePowerUp": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:ScaleFactor35efl": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:ShutterSpeed": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:SubSecCreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:SubSecDateTimeOriginal": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:CircleOfConfusion": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:FOV": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:FocalLength35efl": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:HyperfocalDistance": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:LightValue": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Keywords": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CPUArchitecture": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CPUByteOrder": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ObjectFileType": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:PTEX_FullBanner": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:CompressedSize": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:UncompressedSize": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:OperatingSystem": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:PackingMethod": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ArchivedFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:BackgroundColor": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Comment": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:datecreate": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:datemodify": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BenchmarksCpu_time": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BenchmarksIterations": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BenchmarksName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BenchmarksReal_time": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BenchmarksTime_unit": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ContextCpu_scaling_enabled": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ContextDate": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ContextLibrary_build_type": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ContextMhz_per_cpu": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ContextNum_cpus": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "File:SourcesFile": {
+                "AND": false,
+                "OR": false
+            },
+            "File:TargetLabels": {
+                "AND": false,
+                "OR": false
+            },
+            "File:TargetName": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:Compression": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:Flags": {
+                "AND": false,
+                "OR": false
+            },
+            "ZIP:ExtraFlags": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:System": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeName": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeBlockCount": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeBlockSize": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:RootDirectoryCreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:Software": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeCreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeEffectiveDate": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:BootSystem": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:VolumeSize": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Software": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Palette": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:Transparency": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyXmlns": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyManifestVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyAssemblyIdentityVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyAssemblyIdentityProcessorArchitecture": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyAssemblyIdentityName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyAssemblyIdentityType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityProcessorArchitecture": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityPublicKeyToken": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyDependencyDependentAssemblyAssemblyIdentityLanguage": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BMPVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Planes": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BitDepth": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Compression": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ImageLength": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PixelsPerMeterX": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PixelsPerMeterY": {
+                "AND": false,
+                "OR": false
+            },
+            "File:NumColors": {
+                "AND": false,
+                "OR": false
+            },
+            "File:NumImportantColors": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleDevelopmentRegion": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleExecutable": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleGetInfoString": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleIconFile": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleIdentifier": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleInfoDictionaryVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleName": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundlePackageType": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleShortVersionString": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleSignature": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CFBundleVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:CSResourcesFileMapped": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:PBXProjectSourcePath": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ObjectFlags": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsCell_type": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsSource": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsExecution_count": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsOutput_type": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsText": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsEname": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsEvalue": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsTraceback": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataKernelspecDisplay_name": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataKernelspecLanguage": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataKernelspecName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Nbformat": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Nbformat_minor": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsMetadataCollapsed": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoCodemirror_modeName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoCodemirror_modeVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoFile_extension": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoMimetype": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoNbconvert_exporter": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoPygments_lexer": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MetadataLanguage_infoVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsMetadataDeletable": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsMetadataEditable": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsDataTextplain": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CellsOutputsExecution_count": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileCMMType": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileClass": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ColorSpaceData": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileConnectionSpace": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDateTime": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileFileSignature": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:PrimaryPlatform": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:CMMFlags": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:DeviceManufacturer": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:DeviceModel": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:DeviceAttributes": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:RenderingIntent": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ConnectionSpaceIlluminant": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileCreator": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileID": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:BlueMatrixColumn": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:BlueTRC": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:DeviceModelDesc": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:GreenMatrixColumn": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:GreenTRC": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:Luminance": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MeasurementObserver": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MeasurementBacking": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MeasurementGeometry": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MeasurementFlare": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MeasurementIlluminant": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MediaBlackPoint": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:RedMatrixColumn": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:RedTRC": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:Technology": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ViewingCondDesc": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MediaWhitePoint": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileCopyright": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ChromaticAdaptation": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ContentTypeId": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Tag_TemplateID": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:GIFVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:ImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:ImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:HasColorMap": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:ColorResolutionDepth": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:BitsPerPixel": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:BackgroundColor": {
+                "AND": false,
+                "OR": false
+            },
+            "GIF:Duration": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Language": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:ogSite_name": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:ContentType": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Keywords": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:MachineType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:TimeStamp": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:PEType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:LinkerVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CodeSize": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:InitializedDataSize": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:UninitializedDataSize": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:EntryPoint": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:OSVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ImageVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:SubsystemVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:Subsystem": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileVersionNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ProductVersionNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileFlagsMask": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileFlags": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileOS": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileSubtype": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:LanguageCode": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CharacterSet": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:CompanyName": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:FileVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:InternalName": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:OriginalFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ProductName": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:ProductVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:LegalCopyright": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:Comments": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectProjectType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectProjectGUID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectKeyword": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectPlatformsPlatformName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationOutputDirectory": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationIntermediateDirectory": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationConfigurationType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolBuildCommandLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolCleanCommandLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectReferences": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFilter": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterUniqueIdentifier": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileRelativePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileRelativePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectGlobals": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectRootNamespace": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectTargetFrameworkVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectToolFiles": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationInheritedPropertySheets": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationUseOfMFC": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationATLMinimizesCRunTimeLibraryUsage": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationCharacterSet": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolPreprocessorDefinitions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolMkTypLibCompatible": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolSuppressStartupBanner": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolTargetEnvironment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolTypeLibraryName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolHeaderFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOptimization": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolInlineFunctionExpansion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolFavorSizeOrSpeed": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAdditionalIncludeDirectories": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolStringPooling": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolRuntimeLibrary": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolEnableFunctionLevelLinking": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolPrecompiledHeaderFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAssemblerListingLocation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolObjectFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolProgramDataBaseFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolWarningLevel": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolDetect64BitPortabilityProblems": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolCompileAs": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolCulture": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAdditionalDependencies": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOutputFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolLinkIncremental": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAdditionalLibraryDirectories": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolGenerateDebugInformation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolProgramDatabaseFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolGenerateMapFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolMapFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolRandomizedBaseAddress": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolDataExecutionPrevention": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolImportLibrary": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolTargetMachine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolCommandLine": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolBasicRuntimeChecks": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolBufferSecurityCheck": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolDebugInformationFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolPreprocessorDefinitions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolOptimization": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolAdditionalIncludeDirectories": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolBasicRuntimeChecks": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilter": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationUseOfATL": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOutputs": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolUsePrecompiledHeader": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolPrecompiledHeaderThrough": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolBrowseInformation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolIgnoreAllDefaultLibraries": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolIgnoreDefaultLibraryNames": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolModuleDefinitionFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolSubSystem": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolUsePrecompiledHeader": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolBrowseInformation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolGenerateStublessProxies": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolTypeLibraryName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolHeaderFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolInterfaceIdentifierFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectSccProjectName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectSccLocalPath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAssemblerOutput": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFilterFileFileConfigurationToolPrecompiledHeaderThrough": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolAdditionalOptions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolRuntimeTypeInfo": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectGlobalsGlobalName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectGlobalsGlobalValue": {
+                "AND": false,
+                "OR": false
+            },
+            "HTML:Refresh": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolEnableIntrinsicFunctions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOmitFramePointers": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolBrowseInformationFile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationToolName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationToolAdditionalIncludeDirectories": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationToolPreprocessorDefinitions": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationToolBrowseInformation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectFilesFileFileConfigurationToolOptimization": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolMinimalRebuild": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOptimizeReferences": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolEnableCOMDATFolding": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VisualStudioProjectConfigurationsConfigurationToolOptimizeForWindows98": {
+                "AND": false,
+                "OR": false
+            },
+            "RIFF:Encoding": {
+                "AND": false,
+                "OR": false
+            },
+            "RIFF:NumChannels": {
+                "AND": false,
+                "OR": false
+            },
+            "RIFF:SampleRate": {
+                "AND": false,
+                "OR": false
+            },
+            "RIFF:AvgBytesPerSec": {
+                "AND": false,
+                "OR": false
+            },
+            "RIFF:BitsPerSample": {
+                "AND": false,
+                "OR": false
+            },
+            "Ducky:Quality": {
+                "AND": false,
+                "OR": false
+            },
+            "APP14:DCTEncodeVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "APP14:APP14Flags0": {
+                "AND": false,
+                "OR": false
+            },
+            "APP14:APP14Flags1": {
+                "AND": false,
+                "OR": false
+            },
+            "APP14:ColorTransform": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyNoInheritable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyAssemblyIdentityPublicKeyToken": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileHashalg": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileHash": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileHashTransformsTransformAlgorithm": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileHashDigestMethodAlgorithm": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AssemblyFileHashDigestValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXE:LegalTrademarks": {
+                "AND": false,
+                "OR": false
+            },
+            "SVG:Xmlns": {
+                "AND": false,
+                "OR": false
+            },
+            "SVG:SVGVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:Copyright": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontFamily": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontSubfamily": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontSubfamilyID": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontName": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:NameTableVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PostScriptFontName": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:Description": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:VendorURL": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PreferredFamily": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PreferredSubfamily": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:CompatibleFontName": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:WWSFamilyName": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:WWSSubfamilyName": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:Copyright-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontFamily-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontSubfamily-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontSubfamilyID-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:FontName-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:NameTableVersion-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PostScriptFontName-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:Description-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:VendorURL-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PreferredFamily-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:PreferredSubfamily-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:CompatibleFontName-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:WWSFamilyName-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "Font:WWSSubfamilyName-en-US": {
+                "AND": false,
+                "OR": false
+            },
+            "File:CurrentIPTCDigest": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:CodedCharacterSet": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:ApplicationRecordVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:IPTCDigest": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:XResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:DisplayedUnitsX": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:YResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:DisplayedUnitsY": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PrintStyle": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PrintPosition": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PrintScale": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:GlobalAngle": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:GlobalAltitude": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:URL_List": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:SlicesGroupName": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:NumSlices": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PixelAspectRatio": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PhotoshopThumbnail": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:HasRealMergedData": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:WriterName": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:ReaderName": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PhotoshopQuality": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:PhotoshopFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "Photoshop:ProgressiveScans": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:OriginalDocumentID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:RawFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Version": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProcessVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:WhiteBalance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:IncrementalTemperature": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:IncrementalTint": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Saturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Sharpness": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceSmoothing": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ColorNoiseReduction": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VignetteAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ShadowTint": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:RedHue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:RedSaturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:GreenHue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:GreenSaturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:BlueHue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:BlueSaturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Vibrance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentRed": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentOrange": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentYellow": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentGreen": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentAqua": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentBlue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentPurple": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HueAdjustmentMagenta": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentRed": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentOrange": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentYellow": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentGreen": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentAqua": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentBlue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentPurple": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SaturationAdjustmentMagenta": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentRed": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentOrange": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentYellow": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentGreen": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentAqua": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentBlue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentPurple": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LuminanceAdjustmentMagenta": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SplitToningShadowHue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SplitToningShadowSaturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SplitToningHighlightHue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SplitToningHighlightSaturation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SplitToningBalance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricShadows": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricDarks": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricLights": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricHighlights": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricShadowSplit": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricMidtoneSplit": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ParametricHighlightSplit": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SharpenRadius": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SharpenDetail": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SharpenEdgeMasking": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PostCropVignetteAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:GrainAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LensProfileEnable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LensManualDistortionAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveVertical": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveHorizontal": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveRotate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveScale": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveAspect": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:PerspectiveUpright": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AutoLateralCA": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Exposure2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Contrast2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Highlights2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Shadows2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Whites2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Blacks2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Clarity2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringePurpleAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringePurpleHueLo": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringePurpleHueHi": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringeGreenAmount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringeGreenHueLo": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DefringeGreenHueHi": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ConvertToGrayscale": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ToneCurveName2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:CameraProfile": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:CameraProfileDigest": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LensProfileSetup": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightCenterMode": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightCenterNormX": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightCenterNormY": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightFocalMode": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightFocalLength35mm": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightPreview": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:UprightTransformCount": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HasSettings": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HasCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AlreadyApplied": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Rating": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ColorMode": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ICCProfileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistoryAction": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistoryParameters": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistoryInstanceID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistoryWhen": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistorySoftwareAgent": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HistoryChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DerivedFromOriginalDocumentID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ToneCurvePV2012": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ToneCurvePV2012Red": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ToneCurvePV2012Green": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ToneCurvePV2012Blue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LegacyIPTCDigest": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Comment": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SensitivityType": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:MaxApertureValue": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:LightSource": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FocalPlaneXResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FocalPlaneYResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FocalPlaneResolutionUnit": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:FileSource": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:CustomRendered": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:DigitalZoomRatio": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:GainControl": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Contrast": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Saturation": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Sharpness": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SubjectDistanceRange": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:SerialNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:LensInfo": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:LensModel": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:DateCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:TimeCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:SerialNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LensInfo": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Lens": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LensID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ImageNumber": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ApproximateFocusDistance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DateCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:DateTimeCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:LensID": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:GrayTRC": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Encryption": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:UserAccess": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MajorBrand": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MinorVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:CompatibleBrands": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MovieDataSize": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MovieDataOffset": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MovieHeaderVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:CreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TimeScale": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:Duration": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PreferredRate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PreferredVolume": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PreviewTime": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PreviewDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PosterTime": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:SelectionTime": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:SelectionDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:CurrentTime": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:NextTrackID": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PlayMode": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ComAndroidVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ComAndroidCaptureFps": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackHeaderVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackCreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackID": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackLayer": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:TrackVolume": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:GraphicsMode": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:OpColor": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:CompressorID": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:SourceImageWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:SourceImageHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:XResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:YResolution": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:BitDepth": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:PixelAspectRatio": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:ColorRepresentation": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:VideoFrameRate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MatrixStructure": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaHeaderVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaCreateDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaModifyDate": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaTimeScale": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:HandlerType": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:HandlerDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:Balance": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:AudioFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:AudioChannels": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:AudioBitsPerSample": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:AudioSampleRate": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:AvgBitrate": {
+                "AND": false,
+                "OR": false
+            },
+            "Composite:Rotation": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:MediaLanguageCode": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:CompressorName": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:ProfileName": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-hr-HR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-ko-KR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-nb-NO": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-hu-HU": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-cs-CZ": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-da-DK": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-nl-NL": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-fi-FI": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-it-IT": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-es-ES": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-ro-RO": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-fr-CA": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-uk-UA": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-he-IL": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-zh-TW": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-vi-VN": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-sk-SK": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-zh-CN": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-ru-RU": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-en-GB": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-fr-FR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-hi-IN": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-th-TH": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-ca-ES": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-en-AU": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-es-XL": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-de-DE": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-pt-BR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-pl-PL": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-el-GR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-sv-SE": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-tr-TR": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-pt-PT": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:ProfileDescriptionML-ja-JP": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:VideoCardGamma": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:NativeDisplayInfo": {
+                "AND": false,
+                "OR": false
+            },
+            "ICC_Profile:MakeAndModel": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:SpecialInstructions": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:AppVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:Company": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:DocSecurity": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:HyperlinksChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:LinksUpToDate": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:ScaleCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "PDF:ShareDoc": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Company": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AppVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DocSecurity": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:HyperlinksChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinksUpToDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ScaleCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ShareDoc": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DerivedFromRenditionClass": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:CreationDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Author": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VersionID": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Headline": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Application": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Sensitivity": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Enabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Ref": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Extended_MSFT_Method": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Owner": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_SetDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_SiteId": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Name": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Tag_dlc_policyId": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ItemRetentionFormula": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Tag_dlc_DocIdItemGuid": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:TaxKeyword": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Region": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Confidentiality": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ItemType": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Industries": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Competitors": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ExperienceContentType": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:SMSGDomain": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:BusinessArchitecture": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Products": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:EnterpriseDomainTags": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:ActivitiesAndPrograms": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Partners": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Segments": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Topics": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Groups": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Languages": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:TechnicalLevel": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Audiences": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Roles": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Tag_docset_NoMedatataSyncRequired": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Of67e5d4b76f4a9db8769983fda9cec0": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:NewsType": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSProducts": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:L6f004f21209409da86a713c0f24627d": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:La4444b61d19467597d63190b69ac227": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSProductsTaxHTField0": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:E8080b0481964c759b2c36ae49591b31": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Ldac8aee9d1f469e8cd8c3f8d6a615f2": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:EmployeeRole": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:NewsTopic": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:NewsSource": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:SMSGTags": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:MSPhysicalGeography": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:J3562c58ee414e028925bc902cfc01a1": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:FormatName": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:TemplateName": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Order": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Tag_NewReviewCycle": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:DocVizMetadataToken": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:HandlerVendorID": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:Encoder": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:GoogleStartTime": {
+                "AND": false,
+                "OR": false
+            },
+            "QuickTime:GoogleTrackDuration": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Category": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:Manager": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:HyperlinkBase": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:DerivedFromVersionID": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesXmlns": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesTemplate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesApplication": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesDocSecurity": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesScaleCrop": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesSharedDoc": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesHyperlinksChanged": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesAppVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesLinksUpToDate": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:HLinks": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesXmlns": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesTitle": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesSubject": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesCreator": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesKeywords": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesLastModifiedBy": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesRevision": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesCreatedType": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesCreated": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesModifiedType": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesModified": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:HostComputer": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Artist": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:XPAuthor": {
+                "AND": false,
+                "OR": false
+            },
+            "EXIF:Padding": {
+                "AND": false,
+                "OR": false
+            },
+            "PLIST:URL": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_AdHocReviewCycleID": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_NewReviewCycle": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_EmailSubject": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_AuthorEmail": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_AuthorEmailDisplayName": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_ReviewingToolsShownOnce": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Category": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Manager": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:HyperlinkBase": {
+                "AND": false,
+                "OR": false
+            },
+            "FlashPix:Tag_VPID_ALTERNATENAMES": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleExternallinkedprojectid": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleExternallinkedprojectpath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleExternalrootprojectpath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleExternalsystemid": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryJdkName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentOrderEntryJdkType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionGradleProjectSettingsOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionGradleProjectSettingsOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionGradleProjectSettingsOptionSetOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSharedConfig": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSelectedTarget": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentProjectStatePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentProjectStateProjectState": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSystemId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentSystemStateProjects_view": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationDefault": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationActivateToolWindowBeforeRun": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationAutoOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationAutoOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationHybridOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationHybridOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationJava": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationNativeOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationNativeOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationProfilersOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentConfigurationProfilersOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentLayoutWindow_infoSideWeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ProjectComponentOptionSetOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationAfterSyncTasksTask": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationPlatform": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationUseProjectSettings": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerSettingsOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerSettingsOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerArgumentsOptionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerArgumentsOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerArgumentsOptionArrayOptionValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentFacetConfigurationCompilerArgumentsOptionArgumentParseErrors": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentSourceFolderGenerated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ModuleComponentContentSourceFolderType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorViewportWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorViewportHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorPathFillColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorPathPathData": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorPathStrokeWidth": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:VectorPathStrokeColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Adaptive-iconBackgroundDrawable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:Adaptive-iconForegroundDrawable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ResourcesColorName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ResourcesColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutOrientation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutContext": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarBackground": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarMinHeight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarTheme": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarTitle": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxappcompatwidgetToolbarTitleTextColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutImageViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutImageViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutImageViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutImageViewSrcCompat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewTextAppearance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewTextStyle": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxrecyclerviewwidgetRecyclerViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxrecyclerviewwidgetRecyclerViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutAndroidxrecyclerviewwidgetRecyclerViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_marginTop": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewTextAlignment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewTextColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutOrientation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutTextViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutTextViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutTextViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutTextViewLayout_weight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutTextViewText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutOrientation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_marginStart": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_marginLeft": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_marginTop": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_constraintStart_toStartOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewLayout_constraintTop_toTopOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutImageViewSrcCompat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_marginStart": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_marginLeft": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_constraintBottom_toBottomOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_constraintStart_toEndOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_constraintTop_toTopOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_marginRight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutTextViewLayout_constraintEnd_toEndOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewLayout_marginBottom": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewBackground": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:AndroidxconstraintlayoutwidgetConstraintLayoutViewLayout_constraintBottom_toBottomOf": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestPackage": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationAllowBackup": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationIcon": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationLabel": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationRoundIcon": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationSupportsRtl": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationTheme": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationActivityName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationActivityIntent-filterActionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationActivityIntent-filterCategoryName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestUses-permissionName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataBaseName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataFullName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataOutputFile": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataType": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataVersionCode": {
+                "AND": false,
+                "OR": false
+            },
+            "File:ApkDataVersionName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:OutputTypeType": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Path": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PropertiesMinSdkVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PropertiesPackageId": {
+                "AND": false,
+                "OR": false
+            },
+            "File:PropertiesSplit": {
+                "AND": false,
+                "OR": false
+            },
+            "File:BaseName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Enabled": {
+                "AND": false,
+                "OR": false
+            },
+            "File:FullName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:OutputFile": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Type": {
+                "AND": false,
+                "OR": false
+            },
+            "File:VersionCode": {
+                "AND": false,
+                "OR": false
+            },
+            "File:VersionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestVersionCode": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestVersionName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestUses-sdkMinSdkVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestUses-sdkTargetSdkVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationAppComponentFactory": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationDebuggable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestApplicationTestOnly": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Jetified-compiler-490jarcomgithubbumptechglidecompiler490": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Format": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Index": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Name": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Present": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Scopes": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Types": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromEndColumns": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromEndOffsets": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromStartColumns": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromStartLines": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromStartOffsets": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapSource": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToEndColumns": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToEndOffsets": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToStartColumns": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToStartLines": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToStartOffsets": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsOutputFile": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapFromEndLines": {
+                "AND": false,
+                "OR": false
+            },
+            "File:LogsMapToEndLines": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Merged": {
+                "AND": false,
+                "OR": false
+            },
+            "File:Source": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MKeyAlias": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MKeyPassword": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MName": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MStoreFile": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MStorePassword": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MStoreType": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MV1SigningEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "File:MV2SigningEnabled": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetConfig": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourcePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetAapt-namespace": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetGenerated": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetFrom-dependency": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetGenerated-set": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFilePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileQualifiers": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileColorName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrEnumName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrEnumValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDimenName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDimen": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDrawableName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDrawable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileItemName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileItemType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileIntegerName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileInteger": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileString": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStyleName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStyleParent": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStyleItemName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStyleItem": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringMsgid": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrFlagName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableAttrFlagValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleableEat-comment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrEnumName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrEnumValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrFlagName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileAttrFlagValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileBoolName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileBool": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileDeclare-styleable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileItem": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileItemFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringGExample": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringGId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringG": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStyle": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationQualifiers": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrFormat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrEnumName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrEnumValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrFlagName": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableAttrFlagValue": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleableEat-comment": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerMergedItemsConfigurationDeclare-styleable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:ManifestTargetSandboxVersion": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextAutoText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextEms": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextGravity": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextInputType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextAllCaps": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextAppearance": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextColor": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextIsSelectable": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextSize": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutEditTextTextStyle": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutImageViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutImageViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutImageViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutImageViewLayout_weight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutImageViewSrcCompat": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutLayout_weight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutOrientation": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutTextViewId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutTextViewLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutTextViewLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutTextViewLayout_weight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutLinearLayoutLinearLayoutTextViewText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_marginLeft": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_marginRight": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewLayout_marginBottom": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutTextViewJustificationMode": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonId": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonLayout_width": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonLayout_height": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonLayout_gravity": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonForegroundGravity": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:LinearLayoutButtonText": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFilePreprocessing": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileGenerated-filePath": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileGenerated-fileQualifiers": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileGenerated-fileType": {
+                "AND": false,
+                "OR": false
+            },
+            "XMP:MergerDataSetSourceFileStringB": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:SignificantBits": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:CorePropertiesDescription": {
+                "AND": false,
+                "OR": false
+            },
+            "XML:PropertiesCompany": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:WhitePointX": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:WhitePointY": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:RedX": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:RedY": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:GreenX": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:GreenY": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:BlueX": {
+                "AND": false,
+                "OR": false
+            },
+            "PNG:BlueY": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:VolumeSetName": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:Publisher": {
+                "AND": false,
+                "OR": false
+            },
+            "ISO:DataPreparer": {
+                "AND": false,
+                "OR": false
+            },
+            "IPTC:OriginalTransmissionReference": {
+                "AND": false,
+                "OR": false
+            }
+        }
+    },
+    "bazaar": {
+        "url_base_search": "https://bazaar.abuse.ch/browse.php?search="
+    },
+    "hybridanalysis": {
+        "url_base_search": "https://www.hybrid-analysis.com/search?query=",
+        "url_base_advanced_search": "https://www.hybrid-analysis.com/advanced-search-results?"
+    }
+}

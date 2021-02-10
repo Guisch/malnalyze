@@ -1,0 +1,2 @@
+ssdeep==3.4
+PyExifTool==0.1.1
