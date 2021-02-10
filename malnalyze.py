@@ -150,11 +150,13 @@ def get_hybridanalysis(infos, config):
         'md5': url_base_search + urllib.parse.quote_plus(infos['hash']['md5']),
         'sha1': url_base_search + urllib.parse.quote_plus(infos['hash']['sha1']),
         'sha256': url_base_search + urllib.parse.quote_plus(infos['hash']['sha256']),
-        'ssdeep': url_base_advanced_search + urllib.parse.quote_plus("terms[ssdeep]=" + infos['hash']['ssdeep']),
+        'ssdeep': url_base_advanced_search + urllib.parse.quote_plus("terms[ssdeep]") + 
+                                "=" + urllib.parse.quote_plus(infos['hash']['ssdeep']),
         'filename AND filetype': url_base_advanced_search +
-                                 urllib.parse.quote_plus("terms[filename]=" + infos['exiftool']['File:FileName']) +
-                                 "&" +
-                                 urllib.parse.quote_plus("terms[filetype_desc]=" + infos['exiftool']['File:FileType'])
+                                 urllib.parse.quote_plus("terms[filename]") + "=" +
+                                 urllib.parse.quote_plus(infos['exiftool']['File:FileName']) + "&" +
+                                 urllib.parse.quote_plus("terms[filetype_desc]") + "=" +
+                                 urllib.parse.quote_plus(infos['exiftool']['File:FileType'])
     }
 
     return infos
